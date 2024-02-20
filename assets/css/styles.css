@@ -95,6 +95,7 @@
   h3 {
     text-decoration: underline;
     text-underline-offset: 10px;
+    cursor: pointer;
   }
 
   ul {
@@ -107,6 +108,9 @@
   border-top: 1px solid var(--clr-tone-0);
   padding-block: 2rem;
 
+  .card-title {
+    cursor: pointer;
+  }
 }
 
 #newsletter {

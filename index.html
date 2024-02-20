@@ -44,8 +44,19 @@
           <h2 class="py-4">PIZZA AL ESTILO <br> CHICAGO CON <br> ESPINACAS Y <br> CHAMPIÑONES</h2>
           <h4 class="fw-bold | py-2">110 MIN / 6 A 8 PORCIONES</h4>
           <div class="buttons">
-            <button class="btn" type="button">Enviar por correo</button>
-            <button class="btn" type="button">Añadir a favoritos</button>
+            <button 
+              id="enviarCorreo"
+              class="btn" 
+              type="button"         
+              data-bs-toggle="tooltip" 
+              data-bs-placement="bottom"
+              data-bs-custom-class="custom-tooltip"
+              data-bs-title="Presiona para enviar a tu correo">Enviar por correo</button>
+            <button class="btn" type="button"
+              data-bs-toggle="tooltip" 
+              data-bs-placement="right"
+              data-bs-custom-class="custom-tooltip"
+              data-bs-title="Agrega esta receta a tus favoritos">Añadir a favoritos</button>
           </div>
         </div>
       </div>
@@ -88,7 +99,7 @@
     <section id="recipe" class="container | fs-5">
       <div class="row">
         <div class="col col-md-6 ">
-          <h3 class="mb-5 fs-5">INGREDIENTES</h3>
+          <h3 id="ingredientes" class="mb-5 fs-5">INGREDIENTES</h3>
           <h4 class="fs-5 fw-normal">Masa</h4>    
           <ul>
             <li>20 gr de levadura seca instantánea</li>
@@ -120,7 +131,7 @@
           </ul>
         </div>
         <div class="col col-md-6">
-          <h3 class="mb-5 fs-5">PREPARACION</h3>
+          <h3 id="preparacion" class="mb-5 fs-5">PREPARACION</h3>
           <ol class="ps-3">
             <li>Para la masa, disolver la levadura y el azúcar en agua tibia en un bol grande. Dejar reposar 2 minutos. Agregar el aceite, la harina de maíz, sal y 400gr de harina. Mezclar bien. Amasar y agregar el resto de harina, la cantidad necesaria para tener una masa blanda. Poner en el mesón y amasar por 5 minutos o hasta tener una masa lisa y elástica (agregar harina en el mesón a medida que se va amasando para que la masa no se pegue) . Poner la masa en un bol aceitado, tapar con un paño de cocina limpio y dejar reposar hasta que la masa duplique su volumen (leudar). Golpear la masa para que baje y luego dejar leudar por 40 minutos adicionales.</li>
             <li>Mientras tanto preparar la salsa: Calentar 4 cucharadas de aceite en una olla a fuego medio. Agregar la cebolla, Orégano Gourmet, Albahaca Gourmet, sal y cocinar hasta que la cebolla esté dorada. Agregar el ajo y cocinar por 30 segundos. Agregar los tomates junto al jugo del tarro, a la mezcla de cebolla. Agregar el azúcar y cocinar hasta que la mezcla se haya reducido y espesado, como 30 minutos. Sazonar con sal y pimienta a gusto. Reservar.</li>
